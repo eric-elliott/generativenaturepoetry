@@ -1,0 +1,27 @@
+body {
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    width: 172px;
+    height: 136px;
+    margin: 15px;
+    border:1px solid #021a40;
+}
+
+.banner {
+    width: 100%;
+    height: 40px;
+    background-color: #021129;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 10px;
+}
